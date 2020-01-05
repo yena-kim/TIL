@@ -56,4 +56,38 @@ ff = (float(c)*9/5+32)
 print(ff)
 
 
+#문자자료형
 
+#1
+a = "토마토 만세만세\n토마토 만세만세"
+print(a)
+print("---")
+
+b = "토마토 만세만세"
+print(b)
+print(b)
+print("---")
+
+c = """토마토 만세만세
+토마토 만세만세"""
+print(c)
+
+
+d = """
+\\    /\\
+ )  ( ')
+(  /  )
+ \\(__)|
+ """
+
+print(d)
+
+hongsid = "881120-1068234"
+
+bday = hongsid.split("-")
+print(bday[0])
+print(bday[1])
+
+a = "a:b:c:d"
+a = a.replace(":","#")
+print(a)
